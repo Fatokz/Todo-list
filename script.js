@@ -12,7 +12,7 @@ function displayArr() {
 
 function addTodo() {
     if (input.value == '') {
-        alert("Input empty");
+        alert(" Your Input is empty");
     }
     else{
         todoArr.push(input.value)
