@@ -6,14 +6,19 @@ let todoArr = []
 function displayArr() {
     todoDiv.innerHTML = ''
     for (let index = 0; index < todoArr.length; index++) {
-        todoDiv.innerHTML += `<p id="onn"> ${todoArr[index]} <button id="press" onclick= "deleteTodo(${index})">delete</button> </p>`;
+        todoDiv.innerHTML += `<p id="onn"> ${todoArr[index]} <button id="press" onclick= "deleteTodo(${index})"><i class="fa-solid fa-trash-can"></i></button> </p>`;
     }
 }
 
 function addTodo() {
-    todoArr.push(input.value)
-    console.log(todoArr);
-    displayArr()
+    if (input.value == '') {
+        alert("Input empty");
+    }
+    else{
+        todoArr.push(input.value)
+        console.log(todoArr);
+        displayArr()
+    }
 }
 
 function deleteTodo(index) {
