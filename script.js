@@ -6,7 +6,7 @@ let todoArr = []
 function displayArr() {
     todoDiv.innerHTML = ''
     for (let index = 0; index < todoArr.length; index++) {
-        todoDiv.innerHTML += `<p> ${todoArr[index]} <button onclick= "deleteTodo(${index})">delete</button> </p>`;
+        todoDiv.innerHTML += `<p id="onn"> ${todoArr[index]} <button id="press" onclick= "deleteTodo(${index})">delete</button> </p>`;
     }
 }
 

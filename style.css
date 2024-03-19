@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(34,97,203);
+}
+#div{
+    width: 450px;
+    height: 350px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    padding: 20px;
+}
+#press{
+    background-color: red;
+}
+#onn{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+    height: 30px;
+    width: 100%;
+    /* gap: 10px 20px; */
+}
+#todoDiv{
+    /* background-color: red; */
+}
