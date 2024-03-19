@@ -25,6 +25,7 @@ body{
     font-size: 20px;
     border-radius: 6px;
     outline: none;
+    border:  1px solid black;
 }
 #inpt input:focus{
     border: 2px solid  rgb(42,108,235);
@@ -45,11 +46,12 @@ body{
 #press{
     background-color: rgb(29,26,164);
     color: #fff;
-    height: 40px;
+    height: 35px;
     width: 40px;
     border: none;
     outline: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 #onn{
     display: flex;
@@ -63,5 +65,4 @@ body{
     border-radius: 6px;
     padding: 0 10px 0 10px;
     background-color: rgb(197,225,229);
-    /* gap: 10px 20px; */
 }
