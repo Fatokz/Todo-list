@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: rgb(34,97,203);
+
+body {
+    background: rgb(34, 97, 203);
 }
-#div{
+
+#div {
     width: 450px;
     height: 350px;
     background-color: #fff;
@@ -16,36 +18,42 @@ body{
     padding: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-#inpt{
+
+#inpt {
     display: flex;
     justify-content: space-between;
 }
-#inpt input{
+
+#inpt input {
     height: 40px;
     width: 75%;
     font-size: 20px;
     border-radius: 6px;
     outline: none;
-    border:  1px solid black;
+    border: 1px solid black;
 }
-#inpt input:focus{
-    border: 2px solid  rgb(42,108,235);
+
+#inpt input:focus {
+    border: 2px solid rgb(42, 108, 235);
 }
-#inpt button{
+
+#inpt button {
     height: 40px;
     width: 70px;
-    background: rgb(42,108,235);
+    background: rgb(42, 108, 235);
     border-radius: 6px;
     border: none;
     cursor: pointer;
     color: white;
     font-size: 19px;
 }
-#heit{
+
+#heit {
     margin-top: 40px;
 }
-#press{
-    background-color: rgb(29,26,164);
+
+#press {
+    background-color: rgb(29, 26, 164);
     color: #fff;
     height: 35px;
     width: 40px;
@@ -54,7 +62,8 @@ body{
     border-radius: 6px;
     cursor: pointer;
 }
-#onn{
+
+#onn {
     display: flex;
     justify-content: space-between;
     margin: 7px 0 0 0;
@@ -62,8 +71,8 @@ body{
     width: 100%;
     align-items: center;
     height: 45px;
-    border: 1.6px solid rgb(184,200,203);
+    border: 1.6px solid rgb(184, 200, 203);
     border-radius: 6px;
     padding: 0 10px 0 10px;
-    background-color: rgb(197,225,229);
+    background-color: rgb(197, 225, 229);
 }
