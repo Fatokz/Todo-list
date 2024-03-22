@@ -1,42 +1,49 @@
+/* Resetting default margin, padding, and box-sizing for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styling the body with a background color */
 body {
     background: rgb(34, 97, 203);
 }
 
+/* Styling for the main container */
 #div {
     width: 450px;
     height: 350px;
     background-color: #fff;
-    margin: auto;
-    margin-top: 10%;
+    margin: auto; /* Centering the container horizontally */
+    margin-top: 10%; /* Adding top margin for spacing */
     border-radius: 10px;
     padding: 20px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; /* Adding a subtle shadow effect */
 }
 
+/* Styling for the input section */
 #inpt {
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* Using flexbox for layout */
+    justify-content: space-between; /* Distributing space evenly between elements */
 }
 
+/* Styling for the input field */
 #inpt input {
     height: 40px;
     width: 75%;
     font-size: 20px;
     border-radius: 6px;
-    outline: none;
+    outline: none; /* Removing default outline */
     border: 1px solid black;
 }
 
+/* Styling for the input field when focused */
 #inpt input:focus {
-    border: 2px solid rgb(42, 108, 235);
+    border: 2px solid rgb(42, 108, 235); /* Changing border color when focused */
 }
 
+/* Styling for the add button */
 #inpt button {
     height: 40px;
     width: 70px;
@@ -48,13 +55,15 @@ body {
     font-size: 19px;
 }
 
+/* Styling for the container of todo items */
 #heit {
-    margin-top: 40px;
-    position: sticky;
-    z-index: 2;
-    top: 0;
+    margin-top: 40px; /* Adding top margin for spacing */
+    position: sticky; /* Making the container sticky */
+    z-index: 2; /* Setting z-index to ensure it appears above other elements */
+    top: 0; /* Sticking it to the top of the viewport */
 }
 
+/* Styling for the delete and edit buttons */
 #press {
     background-color: rgb(29, 26, 164);
     color: #fff;
@@ -66,6 +75,7 @@ body {
     cursor: pointer;
 }
 
+/* Styling for the todo item */
 #onn {
     display: flex;
     justify-content: space-between;
