@@ -53,15 +53,7 @@ body {
     position: sticky;
     z-index: 2;
     top: 0;
-    /* background-color: red; */
-    /* height: 100px; */
-    /* overflow-y: scroll; */
-    /* height: 500px; */
 }
-
-/* #heit::-webkit-scrollbar{
-    display: none;
-} */
 
 #press {
     background-color: rgb(29, 26, 164);
@@ -72,11 +64,6 @@ body {
     outline: none;
     border-radius: 6px;
     cursor: pointer;
-}
-
-#ona{
-    display: flex;
-    justify-content: space-between;
 }
 
 #onn {
